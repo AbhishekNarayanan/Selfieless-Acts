@@ -1,0 +1,12 @@
+<html>
+   <body>
+   	<h1> Generic Auto Scaling feature</h1>
+      <form action = "http://107.20.84.57:80/result" method = "POST">
+         <p> MONITOR number of requests for <input type = "text" name = "T_monitor" /> seconds</p>
+         <p>IF number of requests > <input type = "text" name = "threshold_requests" /> THEN</p>
+         <p>Scale out by <input type = "text" name = "scale_factor" />containers</p>
+         WAIT for changes to be reflected before re-polling
+         <p><input type = "submit" value = "submit" /></p>
+      </form>
+   </body>
+</html>

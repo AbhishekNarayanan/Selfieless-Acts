@@ -1,0 +1,6 @@
+flask
+pybase64
+requests
+pymysql
+werkzeug
+flask-mysql
